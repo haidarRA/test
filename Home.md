@@ -7,3 +7,8 @@
 * Variabel, Konstanta, dan Literal
 * Tipe Data dan I/O Dasar
 * Operator
+
+### Modul 1: Percabangan
+* Control Flow
+* Percabangan If, If-Else, If-Else if
+* Percabangan Switch-Case
