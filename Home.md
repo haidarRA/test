@@ -12,3 +12,8 @@
 * Control Flow
 * Percabangan If, If-Else, If-Else if
 * Percabangan Switch-Case
+
+### Modul 2
+* Perulangan
+* Array
+* String
