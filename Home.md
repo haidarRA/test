@@ -13,7 +13,11 @@
 * Percabangan If, If-Else, If-Else if
 * Percabangan Switch-Case
 
-### Modul 2
+### Modul 2: Perulangan, Array, dan String
 * Perulangan
 * Array
 * String
+
+### Modul 3: Fungsi dan Rekursi
+* Fungsi
+* Rekursi
