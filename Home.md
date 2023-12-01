@@ -22,10 +22,10 @@
 * Fungsi
 * Rekursi
 
-### Modul 4
+### Modul 4: Pointer dan Struct
 * Pointer
 * Struct
 
-### Modul 5
-* Algoritma Searching
+### Modul 5: Algoritma Sorting dan Searching
 * Algoritma Sorting
+* Algoritma Searching
