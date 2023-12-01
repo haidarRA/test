@@ -21,3 +21,11 @@
 ### Modul 3: Fungsi dan Rekursi
 * Fungsi
 * Rekursi
+
+### Modul 4
+* Pointer
+* Struct
+
+### Modul 5
+* Algoritma Searching
+* Algoritma Sorting
