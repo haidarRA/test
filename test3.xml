@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE data [
-    <!ENTITY xxe SYSTEM "file:///proc/self/environ">
+    <!ENTITY xxe SYSTEM "file:///etc/hosts">
 ]>
 <data>
     &xxe;
