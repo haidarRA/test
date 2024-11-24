@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE data [
-    <!ENTITY xxe SYSTEM "data:text/plain,XXE injection successful!">
+<?xml version="1.0"?>
+<!DOCTYPE container [
+    <!ENTITY xxe SYSTEM "https://raw.githubusercontent.com/haidarRA/test/refs/heads/master/res_test.txt">
 ]>
 <container>
     <data>
